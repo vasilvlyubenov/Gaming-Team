@@ -1,4 +1,4 @@
-exports.generatePlatform = function (platform) {
+exports.generatePlatformOptions = function (platform) {
     const titles = [
         'PC',
         'Nintendo',
