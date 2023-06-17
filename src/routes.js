@@ -1,10 +1,10 @@
 const router = require('express').Router();
 
 const userController = require('./controllers/userController');
-const petController = require('./controllers/petController');
+const gameController = require('./controllers/gameController');
 
 router.use('/users', userController);
-router.use('/pets', petController);
+router.use('/games', gameController);
 router.get('*', (req, res) => {
     res.status(400).render('404');
 });
